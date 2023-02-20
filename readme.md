@@ -2,12 +2,12 @@ GET /token - Generate Auth Token
 
 GET /posts - Get all posts
 
-GET /:id - Get post by id
+GET /posts/:id - Get post by id
 
-DELETE / - {id: ""} - Delete post by id
+DELETE /posts - {id: ""} - Delete post by id
 
-POST / - { title: "", content: "" } - Create post
+POST /posts - { title: "", content: "" } - Create post
 
-PUT / - { id: "", title: "", content: "" } - Update post
+PUT /posts - { id: "", title: "", content: "" } - Update post
 
-PATCH / - { id: "", title?: "", content?: "" } - Patch post
+PATCH /posts - { id: "", title?: "", content?: "" } - Patch post
